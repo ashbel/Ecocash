@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.fis.ecocash.ecocash.AsyncActivity">
+
+<Button
+    android:id="@+id/btn_bill_submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="Download"
+    android:textColor="@android:color/white" />
+<!-- Image view to show image after downloading -->
+<ImageView android:id="@+id/my_image"
+    android:layout_below="@+id/btn_bill_submit"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+
+<ListView
+    android:id="@+id/listview4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/my_image"
+    android:layout_margin="10dp"
+    android:paddingEnd="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp" />
+
+</RelativeLayout>
